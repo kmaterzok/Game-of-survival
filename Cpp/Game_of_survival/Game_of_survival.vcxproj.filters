@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Starter">
+      <UniqueIdentifier>{393b6408-fa5e-469b-9707-59c3b8cb6d02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{e7480b5b-72cd-4d32-a57b-1c319450b600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{87466546-d964-4e5a-bc7f-1497e7af7256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exception">
+      <UniqueIdentifier>{53b8fa8e-926d-4204-a551-1ac6619e85a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Cell">
+      <UniqueIdentifier>{dd03635f-dbfc-49aa-aad8-7d72543952ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Cell\Basic">
+      <UniqueIdentifier>{a6de2464-4d48-4446-a12e-d2966b28b8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Cell\Specific">
+      <UniqueIdentifier>{f6816554-aa92-4049-bf85-d74e6aa1af65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Plane">
+      <UniqueIdentifier>{87981333-5f5d-45d6-bdc3-c9f2b6a35dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{31694428-7614-489d-a723-3466785a29cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser.Argument">
+      <UniqueIdentifier>{56a95993-2194-49c7-9d66-25e15fd871da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry_point.cpp">
+      <Filter>Starter</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Starter</Filter>
+    </ClCompile>
+    <ClCompile Include="all_exceptions.cpp">
+      <Filter>Exception</Filter>
+    </ClCompile>
+    <ClCompile Include="string_helper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="cell_base.cpp">
+      <Filter>Model\Cell\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="game_plane.cpp">
+      <Filter>Model\Plane</Filter>
+    </ClCompile>
+    <ClCompile Include="normal_cell.cpp">
+      <Filter>Model\Cell\Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="hibernating_cell.cpp">
+      <Filter>Model\Cell\Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="limited_cell.cpp">
+      <Filter>Model\Cell\Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="hardly_revivable_cell.cpp">
+      <Filter>Model\Cell\Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="cell_factory.cpp">
+      <Filter>Model\Cell\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="number_helper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="random_helper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="argument_parser.cpp">
+      <Filter>Parser.Argument</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="entry_point.h">
+      <Filter>Starter</Filter>
+    </ClInclude>
+    <ClInclude Include="all_exceptions.h">
+      <Filter>Exception</Filter>
+    </ClInclude>
+    <ClInclude Include="string_helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="cell.h">
+      <Filter>Model\Cell\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="cell_base.h">
+      <Filter>Model\Cell\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="game_plane.h">
+      <Filter>Model\Plane</Filter>
+    </ClInclude>
+    <ClInclude Include="normal_cell.h">
+      <Filter>Model\Cell\Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="hibernating_cell.h">
+      <Filter>Model\Cell\Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="limited_cell.h">
+      <Filter>Model\Cell\Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="hardly_revivable_cell.h">
+      <Filter>Model\Cell\Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="cell_factory.h">
+      <Filter>Model\Cell\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="number_helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="random_helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="hibernating_cell_state.h">
+      <Filter>Model\Cell\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="argument_type.h">
+      <Filter>Parser.Argument</Filter>
+    </ClInclude>
+    <ClInclude Include="argument_parser.h">
+      <Filter>Parser.Argument</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
