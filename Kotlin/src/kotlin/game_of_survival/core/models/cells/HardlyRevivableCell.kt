@@ -13,7 +13,7 @@ class HardlyRevivableCell(private var isAliveNow: Boolean) : CellBase() {
     override val typeChar: Char = Constants.CellTypeChars.HARDLY_REVIVABLE_CELL
     override fun isPerceivedAsAlive(): Boolean = this.isAliveNow
     override fun stashNextState() {
-        if (this.isAliveNow) {
+        if (this.isAliveNow || this.iterationsToWaitNow > 0) {
             var aliveNeighboursCount = this.countAliveNeighbours()
             val willBeAlive = aliveNeighboursCount == 2 || aliveNeighboursCount == 3
             if (willBeAlive) {
