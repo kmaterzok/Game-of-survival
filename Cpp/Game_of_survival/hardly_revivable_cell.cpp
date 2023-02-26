@@ -25,7 +25,7 @@ void Model::HardlyRevivableCell::stash_next_state()
 	int alive_neighbours_count = this->count_alive_neighbours();
 	bool will_be_alive;
 
-	if (this->is_alive_now) {
+	if (this->is_alive_now || this->iterations_to_wait_now > 0) {
 		will_be_alive = alive_neighbours_count == 2 || alive_neighbours_count == 3;
 
 		if (will_be_alive)
