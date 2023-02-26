@@ -25,7 +25,7 @@ The plane file contains settings for each cell. A configuration for a cell is as
 N0 N1 N0 N1
 T0 T1 T0 T0
 O1 O1 O1 O1
-L0 L1 L1 L0
+H0 H1 H1 H0
 ```
 
 Each cell is represented by the character identifying the cell type and a digit meaning if the cell is alive (1) or dead (0). A quantity of cells for every row must be identical.
